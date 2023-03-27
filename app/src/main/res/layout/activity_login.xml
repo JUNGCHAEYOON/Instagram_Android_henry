@@ -36,16 +36,17 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="@dimen/login_ic_size"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="60dp"
             android:src="@drawable/ic_insta" />
 
         <LinearLayout
+            android:id="@+id/login_btn_myaccount"
             android:visibility="visible"
             android:padding="@dimen/activity_original_margin"
             android:background="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="60dp"
             android:orientation="horizontal">
             <ImageView
                 android:id="@+id/login_iv_profile"
