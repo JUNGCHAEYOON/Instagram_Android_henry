@@ -11,4 +11,16 @@
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#333333</color>
+
+<!--    로그인배경 -->
+    <color name="whitebluegreen">#f3f8ff</color>
+
+<!--    회색계열-->
+    <color name="whitewhitegrey">#F3F3F3</color>
+    <color name="whitemiddlegrey">#EEEEEE</color>
+    <color name="whitegrey">#DDDDDD</color>
+    <color name="middlegrey">#BBBBBB</color>
+    <color name="deepgrey">#AAAAAA</color>
+    <color name="deepdeepgrey">#888888</color>
+    <color name="deepdeepdeepgrey">#555555</color>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    액티비티, 프래그먼트-->
+    <dimen name="activity_original_margin">16dp</dimen>
+<!--    스플래쉬-->
+    <dimen name="splash_ic_size">100dp</dimen>
+<!--    로그인-->
+    <dimen name="login_option_size">30dp</dimen>
+    <dimen name="login_ic_size">60dp</dimen>
+    <dimen name="login_profile_size">70dp</dimen>
+
+</resources>
