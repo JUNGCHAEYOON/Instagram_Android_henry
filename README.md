@@ -1,5 +1,6 @@
 # Instagram_Android_henry
 
+  * 개인 공부 및 포트폴리오 활용을 위해 개발중인 인스타그램 클론 앱입니다.
   * MVP 싱글톤 패턴 
   * Firebase
   
