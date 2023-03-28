@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.PersistableBundle
 import com.example.instagram_android_henry.config.BaseActivity
 import com.example.instagram_android_henry.databinding.ActivityLoginBinding
+import com.example.instagram_android_henry.src.login.newAccount.NewAccountActivity
 import com.example.instagram_android_henry.src.main.MainActivity
 
 class LoginActivity : BaseActivity<ActivityLoginBinding>(ActivityLoginBinding::inflate){
@@ -23,7 +24,7 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(ActivityLoginBinding::i
 
         // 새계정 만들기
         binding.loginBtnNewaccount.setOnClickListener {
-            showCustomToast("새 계정 만들기!")
+            startActivity(Intent(this, NewAccountActivity::class.java))
         }
     }
 }

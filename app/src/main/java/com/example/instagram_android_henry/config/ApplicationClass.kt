@@ -2,6 +2,9 @@ package com.example.instagram_android_henry.config
 
 import android.app.Application
 import android.content.SharedPreferences
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class ApplicationClass : Application() {
 
@@ -11,6 +14,9 @@ class ApplicationClass : Application() {
         // 앱 실행시 사용할 SharedPreference 객체, 이 변수만 사용합니다 다른거 만들지 마!
         lateinit var sSharedPreferences: SharedPreferences
 
+        // 파이어베이스 변수
+        lateinit var auth : FirebaseAuth
+
         // 파이어베이스 연동시 사용할 토큰 등
     }
 
@@ -18,5 +24,6 @@ class ApplicationClass : Application() {
     override fun onCreate() {
         super.onCreate()
         sSharedPreferences = applicationContext.getSharedPreferences("HENRY_TEMPLATE_APP", MODE_PRIVATE)
+        auth = Firebase.auth
     }
 }

@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">인스타그램 클론</string>
+
+<!--    activity_login-->
+    <string name="login_txt_anotheraccount">다른 계정으로 로그인</string>
+    <string name="login_txt_newaccount">새 계정 만들기</string>
+
+<!--    activity_new_account-->
+    <string name="newaccount_txt_input_phone">휴대폰 번호 입력</string>
+    <string name="newaccount_txt_input_phone_info">회원님에게 연락할 수 있는 휴대폰 번호를 입력하세요. 이 휴대폰 번호는 프로필에서 다른 사람에게 공개되지 않습니다.</string>
+    <string name="newaccount_txt_input_phone_number">휴대폰 번호</string>
+    <string name="newaccount_txt_sms">보안 및 로그인 목적으로 Instagram에서 보내는 SMS 알림을 수신할 수 있습니다.</string>
+    <string name="newaccount_txt_btn_next">다음</string>
+    <string name="newaccount_txt_btn_newaccount_already">이미 계정이 있으신가요?</string>
+
+<!--    activity_new_account_name-->
+    <string name="newaccountname_txt_input_name">이름 입력</string>
+    <string name="newaccountname_txt_input_name_etv">성명</string>
 </resources>

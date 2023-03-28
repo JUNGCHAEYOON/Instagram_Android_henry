@@ -15,6 +15,9 @@
 <!--    로그인배경 -->
     <color name="whitebluegreen">#f3f8ff</color>
 
+<!--    새계정-->
+    <color name="blue">#0000ff</color>
+
 <!--    회색계열-->
     <color name="whitewhitegrey">#F3F3F3</color>
     <color name="whitemiddlegrey">#EEEEEE</color>

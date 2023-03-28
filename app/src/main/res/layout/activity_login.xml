@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textColor="@color/black"
-            android:text="다른 계정으로 로그인"/>
+            android:text="@string/login_txt_anotheraccount"/>
     </LinearLayout>
 
     <LinearLayout
@@ -90,7 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="@color/black"
             android:text="새 계정 만들기"/>
         <ImageView
